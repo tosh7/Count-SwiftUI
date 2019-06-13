@@ -10,7 +10,18 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        Text("Hello World This is me!")
+        VStack {
+            Text("0")
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Text("Plus")
+            }
+            Button(action: {}) {
+                Text("Minus")
+            }
+            Button(action: {}) {
+                Text("Clear")
+            }
+        }
     }
 }
 
